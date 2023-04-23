@@ -21,11 +21,7 @@
  11 - Calcular ano de nascomento; ok
  12 - Equação Simples; ok
  13 - Equação do 2º Grau; ok
- 14 - Fatorial;
- 15 - P.A; 
- 16 - P.G;
-
-
+ 
  Site para acesso logo abaixo:
 
  https://debinhasl11.github.io/projeto-calculadora/inicio.html
