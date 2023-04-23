@@ -26,3 +26,18 @@ function multiplicacao(){
     var multi = Number(mult1) * Number(mult2);
     document.getElementById("resultado4").innerHTML = multi;
 }
+//Resto
+function rest() {
+    var rest1 = document.getElementById("rest1").value;
+    var rest2 = document.getElementById("rest2").value;
+    var rest = Number(rest1) % Number(rest2);
+    document.getElementById("resultado5").innerHTML = rest;
+}
+//Porcentagem
+function port(){
+var port1 = document.getElementById("porcen1").value;
+var port2 = document.getElementById("porcen2").value;
+var porc  = 100;
+var porcent = Number(port2) * Number(porc) / Number(port1);
+document.getElementById("resultado6").innerHTML = porcent + " %";
+}

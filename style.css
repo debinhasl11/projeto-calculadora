@@ -69,13 +69,14 @@ button:hover{
 article#simples{
     box-shadow: 1px 1px 9px rgba(254, 254, 254, 0.535);
     background-color: rgba(198, 196, 196, 0.59);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.535);
     padding: 10px;
     height: auto;
     text-align: center;
     margin: 0;
     margin-top: 0px;
 }
-article#simples h2 {
+article h2 {
     font-weight: 700;
     line-height: 1.1;
     font-size: 2em;
@@ -106,9 +107,55 @@ article h3{
     color: rgba(0, 0, 0, 0.726); 
     font-size: 1em;
 }
-article #soma ,#subtracao ,#divisao, #multiplicacao {
+article #soma ,#subtracao ,#divisao, #multiplicacao, #resto , #porcen {
     display: inline-block;
     width: auto; /* largura igual para as duas divs */
     box-sizing: border-box; /* para incluir bordas e preenchimentos na largura */    
     padding: 10px; /* preenchimento apenas para fins de demonstração */
+}
+
+/* Configuração  Outras Operaçoes*/
+article#outras{
+    box-shadow: 1px 1px 9px rgba(254, 254, 254, 0.535);
+    background-color: rgba(0, 0, 0, 0.859);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.535);
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 0px;
+}
+article#outras h2 {
+    color: rgba(246, 234, 234, 0.86);
+    text-shadow: 2px 2px 10px  rgba(55, 39, 39, 0.76);  
+}
+article#outras .simb{
+    font-size: 1.2em;
+    color: rgba(245, 12, 12, 0.644);
+    text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
+    padding: 10px;
+}
+article#outras label{
+    color: white;
+    font-size: 1.3em;
+}
+article#outras div{
+    text-align: justify;
+    margin: 30px;
+    font-weight: lighter; 
+}
+article#outras div h3{
+    text-align: justify;
+    font-weight: lighter;
+    color: rgba(246, 234, 234, 0.86);
+    padding: 10px;
+}
+article button{
+    background-color: rgba(244, 235, 235, 0.389);
+    box-shadow: 4px 5px 19px rgba(13, 13, 13, 0.88);
+    border-radius: 5px;
+}
+article .res1{
+    color: rgb(12, 163, 233);
+    padding: 10px;    
 }
