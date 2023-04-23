@@ -90,3 +90,25 @@ article#simples .simb{
     color: rgb(245, 12, 12);
     text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
 }
+article label{
+    font-size: 1.1em;
+    text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
+}
+article div{
+    text-align: justify;
+    margin: 30px;
+    font-weight: lighter;
+}
+article h3{
+    margin: 5px;
+    text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
+    text-indent: 15px;   
+    color: rgba(0, 0, 0, 0.726); 
+    font-size: 1em;
+}
+#soma ,#subtracao ,#divisao, #multiplicacao {
+    display: inline-block;
+    width: auto; /* largura igual para as duas divs */
+    box-sizing: border-box; /* para incluir bordas e preenchimentos na largura */    
+    padding: 10px; /* preenchimento apenas para fins de demonstração */
+}
