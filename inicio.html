@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <h1>Calcular</h1>
+        </header>
+        <article id="simples">
+            <h2>Operações Simples:</h2>
+            <div id="soma">
+                <h3>SOMA</h3>
+                <label><strong>1º numero:</strong> </label>
+                <input type="number" name="1º numero" id="um">
+                <label><strong><strong class="simb">+</strong> 2º numero:   </strong> </label>
+                <input type="number" name="2º numero" id="dois">
+                <button onclick="soma()">=</button>
+                <strong id="resultado" class="res">00</strong>
+            </div>
+
+            <div id="subtracao">
+                <h3>SUBTRAÇÃO</h3>
+                <label><strong>1º numero:</strong> </label>
+                <input type="number" name="1º numero" id="dim1">
+                <label><strong> <strong class="simb">-</strong> 2º numero:   </strong> </label>
+                <input type="number" name="2º numero" id="dim2">
+                <button onclick="subtracao()"> =</button>
+                <strong id="resultado1" class="res">00</strong>
+            </div>
+
+            <div id="subtracao">
+                <h3>DIVISÃO</h3>
+                <label><strong>1º numero:</strong> </label>
+                <input type="number" name="1º numero" id="div1">
+                <label><strong> <strong class="simb">/</strong> 2º numero:   </strong> </label>
+                <input type="number" name="2º numero" id="div2">
+                <button onclick="divisao()"> =</button>
+                <strong id="resultado3" class="res">00</strong>
+            </div>
+
+            <div id="multiplicacao">
+                <h3>MULTIPLICAÇÃO</h3>
+                <label><strong>1º numero:</strong> </label>
+                <input type="number" name="1º numero" id="mult1">
+                <label><strong> <strong class="simb">x</strong> 2º numero:   </strong> </label>
+                <input type="number" name="2º numero" id="mult2">
+                <button onclick="multiplicacao()"> =</button>
+                <strong id="resultado4" class="res">00</strong>
+            </div>
+        </article>
+    </main>
+    <script src="inicio.js"></script>
 </body>
 </html>
