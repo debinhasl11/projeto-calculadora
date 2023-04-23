@@ -106,7 +106,7 @@ article h3{
     color: rgba(0, 0, 0, 0.726); 
     font-size: 1em;
 }
-#soma ,#subtracao ,#divisao, #multiplicacao {
+article #soma ,#subtracao ,#divisao, #multiplicacao {
     display: inline-block;
     width: auto; /* largura igual para as duas divs */
     box-sizing: border-box; /* para incluir bordas e preenchimentos na largura */    
