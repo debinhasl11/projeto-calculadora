@@ -41,3 +41,31 @@ var porc  = 100;
 var porcent = Number(port2) * Number(porc) / Number(port1);
 document.getElementById("resultado6").innerHTML = porcent + " %";
 }
+//Raiz
+function raiz() {
+    var num = document.getElementById("raiz1").value;
+    var result = Math.sqrt(Number(num));
+    document.getElementById("resultado7").innerHTML = result;
+  }
+//Potenciação
+function potent(){
+    var poten1 = document.getElementById("potent1").value;
+    var poten2 = document.getElementById("potent2").value;
+    var poten = poten1 ** poten2;
+    document.getElementById("resultado8").innerHTML = poten ;
+}
+//Calcular Idade
+function idade(){
+    var dataNascimento = document.getElementById("idade1").value;
+    var anoNascimento = new Date(dataNascimento).getFullYear();
+    var anoAtual = new Date().getFullYear();
+    var idade = anoAtual - anoNascimento;
+    document.getElementById("resultado9").innerHTML = idade + " anos.";
+}
+//Calcular Ano de Nascimento
+function ano(){
+    var nasc = document.getElementById("ano1").value;
+    var atual = new Date().getFullYear();
+    var calc = atual - nasc;
+    document.getElementById("resultado10").innerHTML = calc;
+}

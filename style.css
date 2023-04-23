@@ -107,7 +107,7 @@ article h3{
     color: rgba(0, 0, 0, 0.726); 
     font-size: 1em;
 }
-article #soma ,#subtracao ,#divisao, #multiplicacao, #resto , #porcen {
+article #soma ,#subtracao ,#divisao, #multiplicacao, #resto , #porcen, #raiz, #pontecia, #idade , #ano {
     display: inline-block;
     width: auto; /* largura igual para as duas divs */
     box-sizing: border-box; /* para incluir bordas e preenchimentos na largura */    
@@ -159,3 +159,18 @@ article .res1{
     color: rgb(12, 163, 233);
     padding: 10px;    
 }
+article#outras label#raiz{
+    padding: 10px;
+    font-size: 1.9em;
+}
+article#outras input{
+    width: 40px;
+}
+input#idade1{
+    width: 110px; 
+}
+input#ano1{
+    width: 50px;
+}
+
+

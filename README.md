@@ -6,17 +6,17 @@
  Nesse projeto vou tentar de uma simples cria uma calculadora com as seguintes Operações:
 
     Contas Básicas
- 1 - Soma;
- 2 - Substração;
- 3 - Divisão; 
- 4 - Multiplicação;
+ 1 - Soma; ok
+ 2 - Substração; ok
+ 3 - Divisão; ok
+ 4 - Multiplicação; ok
 
     Contas Especificas
- 5 - Resto;
- 6 - Regra de 3;
- 7 - Desconto;
- 8 - Raiz quadrada;
- 9 - Potenciação;
+ 5 - Resto; ok
+ 6 - Regra de 3; ok
+ 7 - Tabuada.
+ 8 - Raiz quadrada; ok
+ 9 - Potenciação; ok
  10 - Calcular Idade;
  11 - Calcular ano de nascomento;
  12 - Equação Simples;
@@ -24,7 +24,7 @@
  14 - Fatorial;
  15 - P.A; 
  16 - P.G;
- 17 - Tabuada.
+
 
  Site para acesso logo abaixo:
 
