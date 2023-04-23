@@ -105,6 +105,51 @@
                 <button onclick="ano()">=</button>
                 <strong id="resultado10" class="res">00</strong>
             </div>
+
+            <div id="equacao">
+                <h3>EQUAÇÃO SIMPLES</h3>
+                <label><strong class="simb">a</strong></label>
+                <input type="number" name="a" id="a" min="0" max="50">
+                <label><strong class="simb">*</strong></label>
+                <label><strong class="simb">x</strong></label>
+                <input type="number" name="x" id="x" min="0" max="50">
+                <label><strong class="simb">+</strong></label>
+                <input type="number" name="b" id="b" min="0" max="50">
+                <label><strong class="simb">b</strong></label>
+                <button onclick="equa()">=</button>
+                <strong id="resultado11" class="res">00</strong>
+            </div>           
+        </article>
+        <article id="outras">
+            <div id="equaseg" class="central">
+                <h3>EQUAÇÃO DO 2º GRAU</h3>
+                <label><strong class="simb">ax<sup>2</sup></strong></label>
+                <input type="number" name="a" id="a1" min="0" max="50">
+
+                <label><strong class="simb">+</strong></label>
+
+                <label><strong class="simb">bx</strong></label>
+                <input type="number" name="b" id="b1" min="0" max="50">
+
+                <label><strong class="simb">+</strong></label>
+
+                <label><strong class="simb">c</strong></label>
+                <input type="number" name="c" id="c1" min="0" max="50"> 
+
+                <button onclick="equa2()">=</button><br>
+
+                <strond class="simb">( FORMULA DE Δ = b2 – 4ac )</strond></strong><br><br>
+                
+                <strong id="resultado12" class="res1">00</strong>
+            </div>
+
+            <div id="tabuada" class="central">
+                <h3>TABUADA</h3>
+                <label>Valor:</label>
+                <input type="number" name="tab" id="tab" min="0" max="100">
+                <button onclick="tab()">=</button><br>                
+                <table id="tabua"></table>                                
+            </div>
         </article>
     </main>
     <script src="inicio.js"></script>

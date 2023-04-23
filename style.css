@@ -92,7 +92,7 @@ article#simples .simb{
     text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
 }
 article label{
-    font-size: 1.1em;
+    font-size: .8em;
     text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
 }
 article div{
@@ -103,11 +103,10 @@ article div{
 article h3{
     margin: 5px;
     text-shadow: 2px 2px 10px  rgba(74, 20, 20, 0.442); 
-    text-indent: 15px;   
     color: rgba(0, 0, 0, 0.726); 
     font-size: 1em;
 }
-article #soma ,#subtracao ,#divisao, #multiplicacao, #resto , #porcen, #raiz, #pontecia, #idade , #ano {
+article #soma ,#subtracao ,#divisao, #multiplicacao, #resto , #porcen, #raiz, #pontecia, #idade , #ano ,#equacao , #equaseg, #tabuada{
     display: inline-block;
     width: auto; /* largura igual para as duas divs */
     box-sizing: border-box; /* para incluir bordas e preenchimentos na largura */    
@@ -137,7 +136,7 @@ article#outras .simb{
 }
 article#outras label{
     color: white;
-    font-size: 1.3em;
+    font-size: .8em;
 }
 article#outras div{
     text-align: justify;
@@ -161,7 +160,7 @@ article .res1{
 }
 article#outras label#raiz{
     padding: 10px;
-    font-size: 1.9em;
+    font-size: .8em;
 }
 article#outras input{
     width: 40px;
@@ -169,8 +168,23 @@ article#outras input{
 input#idade1{
     width: 110px; 
 }
-input#ano1{
+#ano1, #a ,#b{
     width: 50px;
 }
-
+div#tabuada label{
+    font-size: 1em;
+}
+table{
+    width: 60px;
+    font-size: 1em;
+    height: 22px;
+    font-weight: lighter;
+    color: rgb(12, 163, 233);
+    border-radius: 2px;
+}
+th{
+    color: rgba(246, 234, 234, 0.86);
+    text-shadow: 2px 2px 10px  rgba(55, 39, 39, 0.76);
+    font-weight: lighter;  
+}
 

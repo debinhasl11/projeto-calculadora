@@ -14,13 +14,13 @@
     Contas Especificas
  5 - Resto; ok
  6 - Regra de 3; ok
- 7 - Tabuada.
+ 7 - Tabuada; ok
  8 - Raiz quadrada; ok
  9 - Potenciação; ok
- 10 - Calcular Idade;
- 11 - Calcular ano de nascomento;
- 12 - Equação Simples;
- 13 - Equação do 2º Grau;
+ 10 - Calcular Idade; ok
+ 11 - Calcular ano de nascomento; ok
+ 12 - Equação Simples; ok
+ 13 - Equação do 2º Grau; ok
  14 - Fatorial;
  15 - P.A; 
  16 - P.G;

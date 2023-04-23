@@ -69,3 +69,54 @@ function ano(){
     var calc = atual - nasc;
     document.getElementById("resultado10").innerHTML = calc;
 }
+//Equaçao Simples
+function equa(){
+    var a = document.getElementById("a").value;
+    var b = document.getElementById("b").value;
+    var x = document.getElementById("x").value;
+    var result = Number(a) * Number(x) + Number(b);
+    document.getElementById("resultado11").innerHTML = result;
+}
+// Equação do 2º Grau
+function equa2(){
+
+    //obter valores dos coeficinetes
+    var a = parseFloat(document.getElementById("a1").value);
+    var b = parseFloat(document.getElementById("b1").value);
+    var c = parseFloat(document.getElementById("c1").value);
+
+    //calcular dela
+    var delta = b ** 2 - 4 * a * c;
+
+    //verificar o tipo de raiz
+    if (delta < 0){
+        document.getElementById("resultado12").innerHTML = 'A equação não possui raízes reais.'
+    }else if (delta == 0) {
+        var raiz = -b / (2 * a);
+        document.getElementById("resultado12").innerHTML = 'A equação possui única raiz : ' + raiz;
+    }else {
+        var raiz1 = (- b + Math.sqrt(delta)) / (2 * a);
+        var raiz2 = (- b + Math.sqrt(delta)) / (2 * a);
+        document.getElementById("resultado12").innerHTML = 'A equação possui duas raizes : ' + raiz1 + ' e ' + raiz2 ;
+    }
+}
+function tab(){
+    var tab = parseInt(document.getElementById("tab").value);
+    var tabela = document.getElementById('tabua');
+
+    //limpar a tabela antes de add novos valores
+    tabela.innerHTML = '';
+
+    //cria cabeçalho da tabela
+    var cabecalho = '<tr><th>Resultado:</th></tr>';
+
+    //criar linhas da tabela
+    var linhas = '';
+    for (var i = 1; i <= 10; i++){
+        var resultado = tab * i ;
+        linhas += '<tr><td>' + tab + '  x  ' + i + '  =  ' + '</td><td>' + resultado + '</td></tr>'
+    }
+
+    //adiciona o cabeçalho e as linhas na tabela
+    tabela.innerHTML = cabecalho + linhas;
+}
